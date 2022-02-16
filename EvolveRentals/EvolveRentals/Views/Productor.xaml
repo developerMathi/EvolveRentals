@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:EvolveRentals.MarkupExtensions"
+             x:Class="EvolveRentals.Views.Productor"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}">
+    <ContentPage.Content>
+        <Grid>
+            <Image
+                x:Name="bg"
+                VerticalOptions="Fill"
+                    Aspect="AspectFill"
+                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.car1.jpg}"
+                Opacity="0.3">
+                
+            </Image>
+            <StackLayout
+                Margin="20,30,20,20"
+                HorizontalOptions="FillAndExpand"
+                VerticalOptions="CenterAndExpand"
+            BackgroundColor="Transparent">
+            <Image
+                VerticalOptions="Center"
+                    x:Name="logoImage"
+                    Margin="20,100,20,50"
+                    Aspect="AspectFit"
+                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.EzLogo.png}">
+                <Image.HeightRequest>
+                    <OnIdiom
+                            x:TypeArguments="x:Double"
+                            Phone="120"
+                            Tablet="160" />
+                </Image.HeightRequest>
+            </Image>
+
+            <ActivityIndicator Color="{StaticResource PrimaryColor}"
+                               IsRunning="True"
+                               IsVisible="false"
+                               x:Name="loadingIndicatior">
+                <ActivityIndicator.HeightRequest>
+                    <OnPlatform x:TypeArguments="x:Double">
+                        <On Platform="iOS">
+                            <OnIdiom
+                                    x:TypeArguments="x:Double"
+                                    Phone="50"
+                                    Tablet="60" />
+                        </On>
+                        <On Platform="Android,Windows">
+                            <OnIdiom
+                                    x:TypeArguments="x:Double"
+                                    Phone="50"
+                                    Tablet="70" />
+                        </On>
+                    </OnPlatform>
+                </ActivityIndicator.HeightRequest>
+
+            </ActivityIndicator>
+        </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>
