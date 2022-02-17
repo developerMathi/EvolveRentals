@@ -63,10 +63,18 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BorderlessDatePickerRenderer.cs" />
+    <Compile Include="BorderlessPickerRenderer.cs" />
+    <Compile Include="BorderlessTimePickerRenderer.cs" />
+    <Compile Include="CustomEntryRenderer.cs" />
+    <Compile Include="ExtendedViewCellRenderer.cs" />
+    <Compile Include="ImageCircleRendereriOS.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
+    <Compile Include="NotificationDelegate.cs" />
+    <Compile Include="NotificationHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
