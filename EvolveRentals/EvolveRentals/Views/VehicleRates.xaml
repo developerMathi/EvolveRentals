@@ -1002,7 +1002,7 @@
                                     BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}" 
                                     x:Name="RateListSelectLabel"
                                     Grid.Row="1"
-                                    RowHeight="65"
+                                    RowHeight="72"
                                     SeparatorVisibility="None"
                                     VerticalScrollBarVisibility="Never">
                                         <ListView.ItemTemplate>
@@ -1010,7 +1010,7 @@
                                                 <renders:ExtendedViewCell SelectedBackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}" >
                                                     <Grid>
                                                         <Grid.RowDefinitions>
-                                                            <RowDefinition Height="65" />
+                                                            <RowDefinition Height="72" />
                                                         </Grid.RowDefinitions>
                                                         <Grid.ColumnDefinitions>
                                                             <ColumnDefinition Width="*" />

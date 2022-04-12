@@ -27,7 +27,7 @@
                 Grid.Row="0"
                 Grid.RowSpan="2"
                 Aspect="AspectFill"
-                Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.car4.jpg}"
+                Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.tesla2d.jpg}"
                 VerticalOptions="Fill" 
                 Opacity="0.2"/>
 

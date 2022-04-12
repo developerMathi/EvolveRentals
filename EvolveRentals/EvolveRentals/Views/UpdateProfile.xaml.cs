@@ -196,7 +196,12 @@ namespace EvolveRentals.Views
                     licIssueDate.Date = (DateTime)customerReview.LicenseIssueDate;
                 }
 
-                if (((DateTime)customerReview.LicenseExpiryDate).Date == DateTime.Now.Date)
+                if (customerReview.LicenseExpiryDate == null)
+                {
+                    licenceexpiDate.Placeholder = "Licence Expiry Date";
+                }
+
+                else if (((DateTime)customerReview.LicenseExpiryDate).Date == DateTime.Now.Date)
                 {
                     licenceexpiDate.Placeholder = DateTime.Now.ToString("dd/MM/yyyy");
                     licenceexpiDate.Date = (DateTime)customerReview.LicenseExpiryDate;

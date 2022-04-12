@@ -44,14 +44,14 @@ namespace EvolveRentals.Views
             {
                new SlidePageItems(){ id=0,label= "Welcome to our app. ",imageMobile="ms-appx:///miroshnichenko.mp4",imageTap="slide1b.png",Skiplabel="Skip"},
                  new SlidePageItems(){ id=1,label="We are providing luxury rental services. ",imageMobile="ms-appx:///luxury.mp4",imageTap="slide2.png", Skiplabel="Skip"},
-                   new SlidePageItems(){ id=2,label= "Beautiful yacht and exotic cars are here for your enjoyment. ",imageMobile="ms-appx:///Yacht.mp4",imageTap="slide3.png", Skiplabel="Next"}
+                   new SlidePageItems(){ id=2,label= "Exotic cars are here for your enjoyment. ",imageMobile="ms-appx:///Yacht.mp4",imageTap="slide3.png", Skiplabel="Next"}
             };
             TheCarousel.ItemsSource = list;
 
         }
 
         private void skipLabelTap_Tapped(object sender, EventArgs e)
-        {
+        { 
             var obj = (Button)sender;
             SlidePageItems tappedPage = obj.BindingContext as SlidePageItems;
             if (tappedPage.id == 2)

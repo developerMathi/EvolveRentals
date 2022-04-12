@@ -257,7 +257,7 @@ namespace EvolveRentals.Views
                     if (misChargeResultsSelectable.Count() > 0)
                     {
                         RateListSelectLabel.ItemsSource = misChargeResultsSelectable;
-                        RateListSelectLabel.HeightRequest = misChargeResultsSelectable.Count() * 65;
+                        RateListSelectLabel.HeightRequest = misChargeResultsSelectable.Count() * 72;
                     }
                     if (misChargeResultsSelectable.Count() == 0)
                     {

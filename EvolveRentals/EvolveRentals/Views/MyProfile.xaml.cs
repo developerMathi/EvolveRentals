@@ -118,7 +118,7 @@ namespace EvolveRentals.Views
                             LastNameLabel.Text = customerReview.LastName;
                             dobLabel.Text = string.Format("{0:MMMM d, yyyy}", customerReview.DateOfbirth);
                             addressLabel.Text = customerReview.Address1 + customerReview.Address2 + ", " + customerReview.City + ", " + customerReview.ZipCode + ", " + customerReview.CountryName;
-                            MobileNoLabel.Text = String.Format("{0:(###) ###-####}", long.Parse(customerReview.hPhone));
+                            MobileNoLabel.Text = !string.IsNullOrEmpty(customerReview.hPhone) ? String.Format("{0:(###) ###-####}", long.Parse(customerReview.hPhone)) : "";
                             EmailLabel.Text = customerReview.Email;
 
                             if (PortalDetailsMobileResponse != null)

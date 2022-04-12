@@ -97,8 +97,7 @@ namespace EvolveRentals.Views
             search.StartDate = (DateTime)reservationView.StartDate;
             search.EndDate = (DateTime)reservationView.EndDate;
 
-            search.StartDate = DateTime.Now;
-            search.EndDate = DateTime.Now.AddDays(1);
+
 
             search.VehicleCategoryId = 0;
             search.VehicleMakeID = 0;

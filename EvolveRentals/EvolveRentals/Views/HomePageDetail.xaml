@@ -1388,7 +1388,7 @@
                     Margin="10,0,10,10"
                     Aspect="AspectFit"
                                         VerticalOptions="Fill"
-                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.Illustrations.book.png}">
+                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.tesla4.png}">
                                         <Image.HeightRequest>
                                             <OnPlatform x:TypeArguments="x:Double">
                                                 <On Platform="iOS">

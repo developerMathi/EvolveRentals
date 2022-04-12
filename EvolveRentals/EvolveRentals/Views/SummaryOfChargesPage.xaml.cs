@@ -398,7 +398,7 @@ namespace EvolveRentals.Views
                                     if (Convert.ToInt32(ReservationMobileResponse.ReserveId) > 0)
                                     {
                                         //DependencyService.Get<INotification>().CreateNotification("Booking completed successfully", "Your reservation " + ReservationMobileResponse.ReservationNumber + " created successfully. Please check the details.", "ViewReservation", ReservationMobileResponse.ReserveId.ToString());
-                                        await PopupNavigation.Instance.PushAsync(new SuccessPopUp("Your reservation has been submitted. You will receive an email when your background check has been completed and your insurance has been issued (you will not be able to pick up the vehicle until then.)", 1));
+                                        await PopupNavigation.Instance.PushAsync(new SuccessPopUp("Thank you for your Tesla car rental reservation. A $300 security deposit is required on the day of the reservation. If you need to make any changes to your reservation, please contact us through the website at evolvecarrentals.com/contact. We look forward to seeing you soon and thank you for choosing our company to lower your carbon footprint. #RentOnePlantOne.", 1));
                                     }
                                 }
                                 else if (ReservationMobileResponse.message.ErrorCode == "120")

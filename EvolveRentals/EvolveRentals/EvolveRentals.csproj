@@ -27,6 +27,11 @@
     <None Remove="Assets\cars\car4.jpg" />
     <None Remove="Assets\cars\car5.jpg" />
     <None Remove="Assets\cars\car6.jpg" />
+    <None Remove="Assets\cars\tesla1.png" />
+    <None Remove="Assets\cars\tesla2.png" />
+    <None Remove="Assets\cars\tesla2d.jpg" />
+    <None Remove="Assets\cars\tesla3.png" />
+    <None Remove="Assets\cars\tesla4.png" />
     <None Remove="Assets\circle.png" />
     <None Remove="Assets\emailIcon.png" />
     <None Remove="Assets\EzLogo.png" />
@@ -216,6 +221,11 @@
     <EmbeddedResource Include="Assets\cars\car4.jpg" />
     <EmbeddedResource Include="Assets\cars\car5.jpg" />
     <EmbeddedResource Include="Assets\cars\car6.jpg" />
+    <EmbeddedResource Include="Assets\cars\tesla1.png" />
+    <EmbeddedResource Include="Assets\cars\tesla2.png" />
+    <EmbeddedResource Include="Assets\cars\tesla2d.jpg" />
+    <EmbeddedResource Include="Assets\cars\tesla3.png" />
+    <EmbeddedResource Include="Assets\cars\tesla4.png" />
     <EmbeddedResource Include="Assets\circle.png" />
     <EmbeddedResource Include="Assets\emailIcon.png" />
     <EmbeddedResource Include="Assets\EzLogo.png" />

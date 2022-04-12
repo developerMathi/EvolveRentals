@@ -6,12 +6,21 @@
              NavigationPage.HasNavigationBar="False"
              BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}">
     <ContentPage.Content>
-        <Grid>
+        <Grid BackgroundColor="White">
             <Image
-                x:Name="bg"
+                Margin="0,200"
                 VerticalOptions="Fill"
                     Aspect="AspectFill"
-                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.car1.jpg}"
+                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.tesla4.png}"
+                Opacity="0.05">
+
+            </Image>
+            <Image
+                Margin="0,200"
+                x:Name="bg"
+                VerticalOptions="End"
+                    Aspect="AspectFit"
+                    Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.tesla2.png}"
                 Opacity="0.3">
                 
             </Image>
