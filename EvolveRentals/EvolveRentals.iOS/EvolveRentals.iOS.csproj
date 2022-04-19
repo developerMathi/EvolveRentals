@@ -219,4 +219,16 @@
   <ItemGroup>
     <BundleResource Include="Resources\slide1b.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tesla1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tesla2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tesla3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\tesla4.png" />
+  </ItemGroup>
 </Project>

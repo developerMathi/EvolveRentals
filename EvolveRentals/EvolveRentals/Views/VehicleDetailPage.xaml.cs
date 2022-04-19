@@ -222,7 +222,8 @@ namespace EvolveRentals.Views
                                         typeForMobile.NoOfLuggage = rvsv.Baggages;
                                         typeForMobile.DailyRate = decimal.Round(((decimal)rvsv.RateDetail.DailyRate + calculateMantatryCharges(rvsv.mantatoryMiscChargeDetails, 1)), 2);
                                         typeForMobile.DailyRateWithInsurance = decimal.Round(((decimal)rvsv.RateDetail.DailyRate + calculateMantatryChargesWithInsurance(rvsv.mantatoryMiscChargeDetails, 1)), 2);
-                                        typeForMobile.VehicleTypeImageUrl = rvsv.VehicleTypeImage;
+                                        //typeForMobile.VehicleTypeImageUrl = rvsv.VehicleImageUrl.Contains("NoImage") ? rvsv.VehicleTypeImage:rvsv.VehicleImageUrl;
+                                        typeForMobile.VehicleTypeImageUrl = rvsv.VehicleImageUrl;
                                         typeForMobile.RateDetail = rvsv.RateDetail;
                                         typeForMobile.MileagePerDay = rvsv.MileagePerDay;
                                         typeForMobile.doors = rvsv.Doors;

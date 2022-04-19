@@ -13,6 +13,8 @@
             BackgroundColor="Transparent"
             IsScrollAnimated="True"
             VerticalOptions="Fill"
+            Scrolled="TheCarousel_Scrolled"
+            Loop="False"
             >
             <CarouselView.ItemTemplate>
                 <DataTemplate >

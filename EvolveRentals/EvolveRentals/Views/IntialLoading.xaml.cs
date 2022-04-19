@@ -42,9 +42,9 @@ namespace EvolveRentals.Views
             base.OnAppearing();
             var list = new List<SlidePageItems>
             {
-               new SlidePageItems(){ id=0,label= "Welcome to our app. ",imageMobile="ms-appx:///miroshnichenko.mp4",imageTap="slide1b.png",Skiplabel="Skip"},
-                 new SlidePageItems(){ id=1,label="We are providing luxury rental services. ",imageMobile="ms-appx:///luxury.mp4",imageTap="slide2.png", Skiplabel="Skip"},
-                   new SlidePageItems(){ id=2,label= "Exotic cars are here for your enjoyment. ",imageMobile="ms-appx:///Yacht.mp4",imageTap="slide3.png", Skiplabel="Next"}
+               new SlidePageItems(){ id=0,label= "Rent. Drive. Zero Footprint. The first and only 100% carbon neutral car rental company! Rent now in Las Vegas!",imageMobile="ms-appx:///miroshnichenko.mp4",imageTap="tesla1.png",Skiplabel="Skip"},
+                 new SlidePageItems(){ id=1,label="EVolve your experience. Focus on the journey and let the electric car get you there.",imageMobile="ms-appx:///luxury.mp4",imageTap="tesla2.png", Skiplabel="Skip"},
+                   new SlidePageItems(){ id=2,label= "Your Tesla car experience is ready to drive.",imageMobile="ms-appx:///Yacht.mp4",imageTap="tesla4.png", Skiplabel="Next"}
             };
             TheCarousel.ItemsSource = list;
 
@@ -63,6 +63,12 @@ namespace EvolveRentals.Views
                 //TheCarousel.ScrollTo(2);
                 Navigation.PushAsync(new LoginPage());
             }
+        }
+
+        private void TheCarousel_Scrolled(object sender, ItemsViewScrolledEventArgs e)
+        {
+            //int w = TheCarousel.Position;
+            //DisplayAlert("sdad", w.ToString(), "wdwd");
         }
     }
 

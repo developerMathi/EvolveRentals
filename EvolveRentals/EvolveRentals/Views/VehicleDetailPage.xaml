@@ -714,18 +714,20 @@
 
                                                             <Frame Grid.Row="0"
                                                                    CornerRadius="10"
-                                                                   Padding="0"
+                                                                   Padding="5"
                                                                 Margin="0"
                                                                 HeightRequest="160"
                                                                 HorizontalOptions="FillAndExpand"
                                                                    BorderColor="{AppThemeBinding Light={StaticResource BlackColor},Dark={StaticResource GrayColor}}"
-                                                                   HasShadow="False">
+                                                                   HasShadow="False"
+                                                                   IsClippedToBounds="True">
                                                                 <Image
                                                                     Source="{Binding VehicleTypeImageUrl}"
                                                                     VerticalOptions="FillAndExpand"
                                                                    BackgroundColor="Transparent"
                                                                     Aspect="AspectFill"
-                                                                    Margin="0"/>
+                                                                    Margin="0"
+                                                                    />
                                                             </Frame>
                                                            
 

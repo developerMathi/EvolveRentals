@@ -14,7 +14,7 @@
         <Grid>
             <Image
                 Aspect="AspectFill"
-                Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.car4.jpg}"
+                Source="{local:EmbeddedImage ResourceId=EvolveRentals.Assets.cars.tesla2d.jpg}"
                 VerticalOptions="Fill" 
                 Opacity="0.1"/>
             <ScrollView>
