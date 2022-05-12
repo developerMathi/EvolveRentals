@@ -4,7 +4,9 @@
              xmlns:local="clr-namespace:EvolveRentals.MarkupExtensions"
              x:Class="EvolveRentals.Views.IntialLoading"
              NavigationPage.HasNavigationBar="False"
-             BackgroundColor="Transparent">
+             BackgroundColor="Transparent"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
     <StackLayout>
         <Grid>
         <CarouselView

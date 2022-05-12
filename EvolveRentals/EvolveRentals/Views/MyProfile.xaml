@@ -7,7 +7,9 @@
     xmlns:local="clr-namespace:EvolveRentals.MarkupExtensions"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:renders="clr-namespace:EvolveRentals.Renders"
              BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}"
-    mc:Ignorable="d">
+    mc:Ignorable="d"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
     <ContentPage.Content>
         <Grid Margin="5,10,5,10"
               VerticalOptions="Fill">

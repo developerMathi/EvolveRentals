@@ -9,7 +9,9 @@
              x:Class="EvolveRentals.Views.MyRentals"
             BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}"
               NavigationPage.HasBackButton="False"
-             NavigationPage.HasNavigationBar="False">
+             NavigationPage.HasNavigationBar="False"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
     <ContentPage.Content>
         <StackLayout Margin="15,5,15,0" VerticalOptions="FillAndExpand">
             <StackLayout

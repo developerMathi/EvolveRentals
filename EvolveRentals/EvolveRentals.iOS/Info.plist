@@ -41,7 +41,7 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>This app use storage to save profile images and licence images in your device.</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.1</string>
+	<string>1.3</string>
 	<key>NSCalendarsUsageDescription</key>
 	<string>This app use calender in your device.</string>
 	<key>NSLocationAlwaysUsageDescription</key>

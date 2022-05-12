@@ -7,7 +7,9 @@
              xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              mc:Ignorable="d"
              x:Class="EvolveRentals.Views.EditVehicleRates"
-             BackgroundColor="{StaticResource BackGroundColor}">
+             BackgroundColor="{StaticResource BackGroundColor}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
 
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Login" 

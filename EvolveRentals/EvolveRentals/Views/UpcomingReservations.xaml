@@ -8,7 +8,9 @@
              mc:Ignorable="d"
              x:Class="EvolveRentals.Views.UpcomingReservations"
              NavigationPage.HasBackButton="False" 
-             BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}">
+             BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
     <ContentPage.Content>
         <StackLayout Margin="15,5,15,0" VerticalOptions="FillAndExpand">
 
