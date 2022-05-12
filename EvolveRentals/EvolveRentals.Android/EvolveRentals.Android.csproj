@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -205,7 +204,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\EvolveRentals\EvolveRentals.csproj">
-      <Project>{DAEB0EFB-72EA-4E90-9F88-A4D923CD35BE}</Project>
+      <Project>{724FBA59-14BF-47D0-B0D9-3AC09B7DD4B9}</Project>
       <Name>EvolveRentals</Name>
     </ProjectReference>
   </ItemGroup>

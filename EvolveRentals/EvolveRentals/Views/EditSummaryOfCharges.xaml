@@ -7,7 +7,9 @@
              xmlns:renders="clr-namespace:EvolveRentals.Renders"
              mc:Ignorable="d"
              x:Class="EvolveRentals.Views.EditSummaryOfCharges"
-             BackgroundColor="{StaticResource BackGroundColor}">
+             BackgroundColor="{StaticResource BackGroundColor}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
 
     <ContentPage.Content>
         <StackLayout>
