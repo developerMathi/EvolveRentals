@@ -4,6 +4,8 @@
              xmlns:local="clr-namespace:EvolveRentals.MarkupExtensions" xmlns:input="clr-namespace:Plugin.InputKit.Shared.Controls;assembly=Plugin.InputKit"
              x:Class="EvolveRentals.Views.SettingPage"
                  BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True"
 >
     <ContentPage.Content>
         

@@ -8,7 +8,9 @@
              mc:Ignorable="d"
              x:Class="EvolveRentals.Views.EditBookNow"
              NavigationPage.HasBackButton="False"
-             BackgroundColor="{StaticResource BackGroundColor}">
+             BackgroundColor="{StaticResource BackGroundColor}"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Login" 
                      Clicked="ToolbarItem_Clicked" 

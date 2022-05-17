@@ -12,7 +12,9 @@
     xmlns:renders="clr-namespace:EvolveRentals.Renders"
      NavigationPage.HasBackButton="False"
     mc:Ignorable="d"
-    BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}">
+    BackgroundColor="{AppThemeBinding Dark={StaticResource BlackColor}, Light={StaticResource BackGroundColor}}"
+    xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+            ios:Page.UseSafeArea="True">
 
    
     <ContentPage.Content>
