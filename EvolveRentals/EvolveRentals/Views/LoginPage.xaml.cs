@@ -108,6 +108,10 @@ namespace EvolveRentals.Views
                 {
                     await PopupNavigation.Instance.PopAllAsync();
                 }
+                else if (PopupNavigation.Instance.PopupStack[PopupNavigation.Instance.PopupStack.Count - 1].GetType() == typeof(SuccessPopUp))
+                {
+                    await PopupNavigation.Instance.PopAsync();
+                }
             }
 
         }
