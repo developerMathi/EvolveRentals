@@ -134,6 +134,9 @@ namespace EvolveRentals.Views
             PopupNavigation.Instance.PushAsync(new DetailPopUp("Temporary  password", "You should have received a temporary password via email. Copy it here. If you did not receive it, click ‘Resend Email’.", 1));
         }
 
-
+        private void btnBack_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
     }
 }

@@ -80,8 +80,10 @@ namespace EvolveRentals.Popups
                     Navigation.PopModalAsync();
                 }
                 Navigation.PopModalAsync();
-                
-               
+                PopupNavigation.PopAsync();
+
+
+
 
             }
             if (v == 7)
